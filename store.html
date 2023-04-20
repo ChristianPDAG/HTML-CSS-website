@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sport-store productos</title>
-    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="img/css/fontello.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,11 +13,11 @@
     <link href="style.css" rel="stylesheet" type="text/css"> 
   </head>
 </head>
-  <body>
+  <body id="fondo">
     <header>
         <nav class="cont_navbar navbar navbar-expand-lg bg-body-tertiary fixed-top" id="navbar" onclick="myFunction(this)">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">LOGO</a>
+              <a class="navbar-brand" href="index.html">S/S</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -29,7 +29,7 @@
                 </li>
                 </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#login">Login</a>
+                    <a class="nav-link" href="login.html">Login</a>
                   </li>
                 <li class="nav-item">
                   <a class="nav-link" href="store.html">Productos</a>
@@ -58,13 +58,13 @@
                         <th><h3 class="display-5">Secciones</h3></th>
                     </tr>
                     <tr class="display-6">
-                        <td><a href="#ciclismo" style="text-decoration: none;  color: black;"> Ciclismo</a></td>
+                        <td><a href="#ciclismo" style="text-decoration: none;  color: white;"> Ciclismo</a></td>
                     </tr>
                     <tr class="display-6">
-                        <td><a href="#futbol" style="text-decoration: none; color: black;"> Fútbol</a></td>
+                        <td><a href="#futbol" style="text-decoration: none; color: white;"> Fútbol</a></td>
                     </tr>
                     <tr class="display-6">
-                        <td><a href="#trekking" style="text-decoration: none;  color: black;"> Trekking</a></td>
+                        <td><a href="#trekking" style="text-decoration: none;  color: white;"> Trekking</a></td>
                     </tr>
                     </table>
                     <hr>
@@ -76,12 +76,12 @@
                     <h1 class="display-1 text-center">Tienda</h1>
                     <br>
                     <br>
-                    <h2 class="display-4" id="ciclismo">Ciclismo</h2>
+                    <h2 class="display-4 secciones" id="ciclismo">Ciclismo</h2>
                     <br>
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <div class="col">
                           <div class="card h-100">
-                            <img src="bici1.webp" class="card-img-top" alt="...">
+                            <img src="img/bici1.webp" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">TRIBAN</h5>
                               <p class="card-text">Bicicleta de ruta aro 700 / 8 velocidades azul marino rc120</p>
@@ -95,7 +95,7 @@
                         </div>
                         <div class="col">
                           <div class="card h-100">
-                            <img src="bici2.webp" class="card-img-top" alt="...">
+                            <img src="img/bici2.webp" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">ROCKRIDER</h5>
                               <p class="card-text">Casco ciclismo mtb expl500</p>
@@ -110,7 +110,10 @@
                         </div>
                         <div class="col">
                             <div class="card h-100">
-                              <img src="bici3.webp" class="card-img-top" alt="..." height="200">
+                              <img src="img/bici3.webp" class="card-img-top" alt="..." height="200">
+                              <br>
+                              <br>
+                              <br>
                               <div class="card-body">
                                 <h5 class="card-title">SPECIALIZED</h5>
                                 <p class="card-text">Bicicleta Rockhopper Aro 26</p>
@@ -127,12 +130,12 @@
                 <br>
                 <hr>
                 <br>
-                <h2 class="display-4" id="futbol">Fútbol</h2>
+                <h2 class="display-4 secciones" id="futbol">Fútbol</h2>
                 <br>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                       <div class="card h-100">
-                        <img src="futbol1.webp" class="card-img-top" alt="...">
+                        <img src="img/futbol1.webp" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">KIZTA</h5>
                           <p class="card-text">Balón de fútbol amarillo</p>
@@ -146,7 +149,7 @@
                     </div>
                     <div class="col">
                       <div class="card h-100">
-                        <img src="futbol2.webp" class="card-img-top" alt="...">
+                        <img src="img/futbol2.webp" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">KIZTA</h5>
                           <p class="card-text">Zapatillas de fútbol</p>
@@ -161,7 +164,10 @@
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                          <img src="futbol3.webp" class="card-img-top" alt="..." height="200">
+                          <img src="img/futbol3.webp" class="card-img-top" alt="..." height="200">
+                          <br>
+                          <br>
+                          <br>
                           <div class="card-body">
                             <h5 class="card-title">KIZTA</h5>
                             <p class="card-text">Arco de fútbol</p>
@@ -177,12 +183,12 @@
                 </div>
                 <br>
                 <hr>
-                <h2 class="display-4" id="trekking">Trekking</h2>
+                <h2 class="display-4 secciones" id="trekking" >Trekking</h2>
                 <br>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                       <div class="card h-100">
-                        <img src="trekking1.webp" class="card-img-top" alt="...">
+                        <img src="img/trekking1.webp" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">FORKLAS</h5>
                           <p class="card-text">Bastón de Trekking</p>
@@ -196,7 +202,7 @@
                     </div>
                     <div class="col">
                       <div class="card h-100">
-                        <img src="trekking2.webp" class="card-img-top" alt="...">
+                        <img src="img/trekking2.webp" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">KECHUA</h5>
                           <p class="card-text">Bototos de montaña verde agua</p>
@@ -210,7 +216,7 @@
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                          <img src="trekking3.webp" class="card-img-top" alt="..." height="200">
+                          <img src="img/trekking3.webp" class="card-img-top" alt="..." height="200">
                           <div class="card-body">
                             <br>
                             <br>
@@ -258,7 +264,7 @@
                     <hr>
                     <br>
                     <a href=""><i class="icon-location">Avenida Campo del Deporte 466</i></a>
-                    <img src="ubicacion.png" width="300" height="200" alt="">
+                    <img src="img/ubicacion.png" width="300" height="200" alt="">
                   </div>
               
                 </div>
